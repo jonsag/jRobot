@@ -57,15 +57,15 @@
 void setup()
 {
   // STEPPER PINS ON JJROBOTS BROBOT BRAIN BOARD
-  pinMode(4, OUTPUT);    // ENABLE MOTORS
-  pinMode(7, OUTPUT);    // STEP MOTOR 1 PORTE,6
-  pinMode(8, OUTPUT);    // DIR MOTOR 1  PORTB,4
-  pinMode(12, OUTPUT);   // STEP MOTOR 2 PORTD,6
-  pinMode(5, OUTPUT);    // DIR MOTOR 2  PORTC,6
-  digitalWrite(4, HIGH); // Disable motors
+  pinMode(ENABLE_MOTORS_PIN, OUTPUT);    // ENABLE MOTORS
+  pinMode(STEP_MOTOR_1_PIN, OUTPUT);    // STEP MOTOR 1 PORTE,6
+  pinMode(DIR_MOTOR_1_PIN, OUTPUT);    // DIR MOTOR 1  PORTB,4
+  pinMode(STEP_MOTOR_2_PIN, OUTPUT);   // STEP MOTOR 2 PORTD,6
+  pinMode(DIR_MOTOR_2_PIN, OUTPUT);    // DIR MOTOR 2  PORTC,6
+  digitalWrite(DISABLE_MOTORS_PIN, HIGH); // Disable motors
 
-  pinMode(10, OUTPUT); // Servo1 (arm)
-  pinMode(13, OUTPUT); // Servo2
+  pinMode(SERVO_1_PIN, OUTPUT); // Servo1 (arm)
+  pinMode(SERVO_2_PIN, OUTPUT); // Servo2
 
   Serial.begin(115200); // Serial output to console
 

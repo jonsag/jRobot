@@ -8,6 +8,20 @@
 #include <JJ_MPU6050_DMP_6Axis.h> // Modified version of the MPU6050 library to work with DMP (see comments inside)
 // This version optimize the FIFO (only contains quaternion) and minimize code size
 
+// PINS
+#define ENABLE_MOTORS_PIN 4
+#define STEP_MOTOR_1_PIN 7
+#define DIR_MOTOR_1_PIN 8
+#define STEP_MOTOR_2_PIN 12
+#define DIR_MOTOR_2_PIN 5
+#define DISABLE_MOTORS_PIN 4
+
+#define SERVO_1_PIN 10
+#define SERVO_2_PIN 13
+
+#define SONAR_TRIG_PIN 6
+#define SONAR_ECHO_PIN 9
+
 // NORMAL MODE PARAMETERS (MAXIMUM SETTINGS)
 #define MAX_THROTTLE 580
 #define MAX_STEERING 150
