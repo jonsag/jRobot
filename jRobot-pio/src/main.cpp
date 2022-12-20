@@ -338,7 +338,7 @@ void loop()
 
     // Stability control: This is a PD controller.
     //    input: robot target angle(from SPEED CONTROL), variable: robot angle, output: Motor speed
-    //    We integrate the output (sumatory), so the output is really the motor acceleration, not motor speed.
+    //    We integrate the output (summatory), so the output is really the motor acceleration, not motor speed.
     control_output += stabilityPDControl(dt, angle_adjusted, target_angle, Kp, Kd);
     control_output = constrain(control_output, -MAX_CONTROL_OUTPUT, MAX_CONTROL_OUTPUT); // Limit max output from control
 

@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jRobot-Leonardo-Nano.kicad_pro",
+    "filename": "jRobot-Micro.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -447,7 +447,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "jRobot-Leonardo-Nano.dsn",
+      "specctra_dsn": "jRobot-Micro.dsn",
       "step": "",
       "vrml": ""
     },
@@ -497,8 +497,8 @@
       ""
     ],
     [
-      "6353a97a-1c58-4ccf-a449-2d3fc0ca2fcf",
-      "Arduino UNO"
+      "9c8c5718-cb49-4d39-8945-955c439d057d",
+      "ArduinoMicro"
     ]
   ],
   "text_variables": {}
